@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Itz Homepage</h1>
+  </header>
+
+  <main>
+    <section class="search">
+      <input type="text" id="search-bar" placeholder="Search the web...">
+      <button onclick="searchWeb()">Search</button>
+    </section>
+
+    <section class="links">
+      <h2>Quick Links</h2>
+      <div class="link-grid">
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.github.com" target="_blank">GitHub</a>
+        <a href="https://www.reddit.com" target="_blank">Reddit</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 My Custom Homepage</p>
+  </footer>
+
+  <script>
+    function searchWeb() {
+      const query = document.getElementById('search-bar').value;
+      window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
+    }
+  </script>
+</body>
+</html>
