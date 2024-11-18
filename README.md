@@ -1,6 +1,3 @@
-Here’s the updated `README.md` tailored for your repository setup:
-
----
 
 # Homepage
 
@@ -65,6 +62,3 @@ Contributions are welcome! If you have suggestions for improvements, feel free t
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-Let me know if you need any further tweaks or additions!
