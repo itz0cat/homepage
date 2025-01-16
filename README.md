@@ -16,7 +16,7 @@ A sleek, modern, and personalized browser homepage with quick access to your fav
 
 1. **Clone or download** the repository:
    ```bash
-   git clone https://github.com/your-username/homepage.git
+   git clone https://github.com/itz0cat/homepage.git
    ```
 
 2. Open the `index.html` file in your browser.
